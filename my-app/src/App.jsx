@@ -3,8 +3,8 @@ import CList  from './CList'
 import './App.css'
 
 
-import HTML from './assets/HTML.jpeg'
-import CSS from './assets/CSS.jpg'
+import HTML2 from './assets/HTML2.avif'
+import CSS1 from './assets/CSS1.jpg'
 
 
 function App(props) {
