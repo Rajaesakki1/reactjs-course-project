@@ -6,19 +6,26 @@ function CList() {
  
   const [courses, setCourses] = useState(null);
   const[dummy,setdummy]=useState(true);
-   
-
+   const[error,seterror]=useState(null);
 
   useEffect(()=>{
     
     fetch ('http://localhost:3000/courses')
     .then(Response => {console.log(Response);
       return Response.json()
-    }).then(data => setCourses(data))
+    }).then(data => setCourses(data)).catch((error)=>{
+      console.log(error.message);
+      seterror(error.message);
+
+    })
 
   },[]);
   if(!courses){
-    return<></>
+    return(
+    <>
+    <p>{error}</p>
+    </>
+    )
   }
 
 

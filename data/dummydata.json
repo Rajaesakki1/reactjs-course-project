@@ -5,21 +5,21 @@
       "name": "HTML",
       "price": 774,
       "rating": 5,
-      "image": "http://localhost:5174/assets/HTML2.avif"
+      "image": "http://localhost:5173/assets/HTML2.avif"
     },
     {
       "id": 2,
       "name": "CSS",
       "price": 775,
       "rating": 5,
-      "image": "http://localhost:5174/assets/CSS1.jpg"
+      "image": "http://localhost:5173/assets/CSS1.jpg"
     },
     {
       "id": 3,
       "name": "CSS",
       "price": 765,
       "rating": 4,
-      "image": "http://localhost:5174/assets/CSS1.jpg"
+      "image": "http://localhost:5173/assets/CSS1.jpg"
     }
   ]
 }
